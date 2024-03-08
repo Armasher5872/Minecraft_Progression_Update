@@ -1,0 +1,1 @@
+A large overhaul to Minecraft mainly focused around revamping the progression and world generation of the game, namely to make it significantly less stagnent, and adding notable overhauls to bosses, enemy AI, and various other adjustments.
