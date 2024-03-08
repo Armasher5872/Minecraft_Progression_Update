@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": "mc_progression_update:nether_firestone_ore_placed",
+  "step": "underground_ores"
+}

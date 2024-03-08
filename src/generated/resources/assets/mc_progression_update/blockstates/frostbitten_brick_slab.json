@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mc_progression_update:block/frostbitten_brick_slab"
+    },
+    "type=double": {
+      "model": "mc_progression_update:block/frostbitten_bricks"
+    },
+    "type=top": {
+      "model": "mc_progression_update:block/frostbitten_brick_slab_top"
+    }
+  }
+}

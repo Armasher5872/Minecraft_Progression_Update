@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_fire_side",
+  "render_type": "cutout",
+  "textures": {
+    "fire": "mc_progression_update:block/sulfur_fire_0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "mc_progression_update:block/frostbitten_bricks",
+    "side": "mc_progression_update:block/frostbitten_bricks",
+    "top": "mc_progression_update:block/frostbitten_bricks"
+  }
+}

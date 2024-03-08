@@ -1,0 +1,10 @@
+{
+  "entries": [
+    "mc_progression_update:firestone_hoe_smelt",
+    "mc_progression_update:firestone_pickaxe_smelt",
+    "mc_progression_update:firestone_sword_smelt",
+    "mc_progression_update:firestone_shovel_smelt",
+    "mc_progression_update:firestone_axe_smelt"
+  ],
+  "replace": false
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/rail_flat",
+  "render_type": "cutout",
+  "textures": {
+    "rail": "mc_progression_update:block/lightning_rail"
+  }
+}

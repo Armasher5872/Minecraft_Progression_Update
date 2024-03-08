@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "@": {
+      "item": "minecraft:powered_rail"
+    },
+    "S": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "S S",
+    "S@S",
+    "S S"
+  ],
+  "result": {
+    "item": "mc_progression_update:lightning_rail"
+  },
+  "show_notification": true
+}

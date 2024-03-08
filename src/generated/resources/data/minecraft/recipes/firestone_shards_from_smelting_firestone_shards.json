@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "firestone_shards",
+  "ingredient": {
+    "item": "mc_progression_update:firestone_shards"
+  },
+  "result": "mc_progression_update:firestone_shards"
+}

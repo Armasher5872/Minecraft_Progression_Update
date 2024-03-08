@@ -1,0 +1,45 @@
+[07Mar2024 23:34:19.125] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 8, --assetsDir, C:\Users\PhazoGanon\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 48.1.0, --fml.mcVersion, 1.20.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230921.100330, --mod, mc_progression_update, --all, --output, E:\Users\PhazoGanon\Files\Misc\Non-Smash Modding\Minecraft Modding\forge-1.20.2-48.1.0-mdk\src\generated\resources, --existing, E:\Users\PhazoGanon\Files\Misc\Non-Smash Modding\Minecraft Modding\forge-1.20.2-48.1.0-mdk\src\main\resources, --mixin.config, mixins.mcprogressionupdate.json]
+[07Mar2024 23:34:19.127] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 17.0.10+7
+[07Mar2024 23:34:19.129] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.1 starting: java version 17.0.10 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[07Mar2024 23:34:19.212] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[07Mar2024 23:34:19.252] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/PhazoGanon/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23127!/ Service=ModLauncher Env=UNKNOWN
+[07Mar2024 23:34:19.432] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\PhazoGanon\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.2-48.1.0\7a8d252b70bac3cde4ec0e82bd816fe0212551d\fmlcore-1.20.2-48.1.0.jar is missing mods.toml file
+[07Mar2024 23:34:19.434] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\PhazoGanon\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.2-48.1.0\d034c6f69f1f1cf324bdd7bbc66896e67990bbef\javafmllanguage-1.20.2-48.1.0.jar is missing mods.toml file
+[07Mar2024 23:34:19.436] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\PhazoGanon\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.2-48.1.0\ac35e86aee5633ea200ae1607b4ca48b24cd845\lowcodelanguage-1.20.2-48.1.0.jar is missing mods.toml file
+[07Mar2024 23:34:19.440] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\PhazoGanon\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.2-48.1.0\7ddb9ee7a72eb906db86ca9490f35be1789c2813\mclanguage-1.20.2-48.1.0.jar is missing mods.toml file
+[07Mar2024 23:34:19.482] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[07Mar2024 23:34:20.273] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by mixins.mcprogressionupdate.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[07Mar2024 23:34:20.273] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[07Mar2024 23:34:20.274] [main/ERROR] [mixin/]: Mixin config mixins.mcprogressionupdate.json does not specify "minVersion" property
+[07Mar2024 23:34:20.276] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\PhazoGanon\.gradle\caches\forge_gradle\assets, --assetIndex, 8, --mod, mc_progression_update, --all, --output, E:\Users\PhazoGanon\Files\Misc\Non-Smash Modding\Minecraft Modding\forge-1.20.2-48.1.0-mdk\src\generated\resources, --existing, E:\Users\PhazoGanon\Files\Misc\Non-Smash Modding\Minecraft Modding\forge-1.20.2-48.1.0-mdk\src\main\resources]
+[07Mar2024 23:34:20.318] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
+[07Mar2024 23:34:20.319] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[07Mar2024 23:34:20.323] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[07Mar2024 23:34:20.323] [main/INFO] [mixin/]: Selecting config mixins.mcprogressionupdate.json
+[07Mar2024 23:34:20.326] [main/WARN] [mixin/]: Reference map 'mcreworked.mixin-refmap.json' for mixins.mcprogressionupdate.json could not be read. If this is a development environment you can ignore this message
+[07Mar2024 23:34:20.327] [main/INFO] [mixin/]: Preparing mixins.mcprogressionupdate.json (1)
+[07Mar2024 23:34:20.342] [main/WARN] [mixin/]: Mixin environment was unable to detect the current side, sided mixins will not be applied
+[07Mar2024 23:34:22.227] [main/INFO] [mixin/]: Mixing MinecartMixin from mixins.mcprogressionupdate.json into net.minecraft.world.entity.vehicle.Minecart
+[07Mar2024 23:34:23.407] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 48.1.0, for MC 1.20.2 with MCP 20230921.100330
+[07Mar2024 23:34:23.408] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v48.1.0 Initialized
+[07Mar2024 23:34:23.659] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [mc_progression_update]
+[07Mar2024 23:34:23.698] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/PhazoGanon/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_2023.12.10-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_2023.12.10-1.20.2-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
+[07Mar2024 23:34:23.698] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/PhazoGanon/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.2-48.1.0_mapped_parchment_2023.12.10-1.20.2/forge-1.20.2-48.1.0_mapped_parchment_2023.12.10-1.20.2-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
+[07Mar2024 23:34:23.783] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[07Mar2024 23:34:23.819] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 35 ms
+[07Mar2024 23:34:23.819] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[07Mar2024 23:34:23.895] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 75 ms
+[07Mar2024 23:34:23.895] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: mc_progression_update
+[07Mar2024 23:34:23.976] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: mc_progression_update finished after 81 ms
+[07Mar2024 23:34:23.976] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: mc_progression_update
+[07Mar2024 23:34:24.005] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: mc_progression_update finished after 28 ms
+[07Mar2024 23:34:24.005] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id mc_progression_update
+[07Mar2024 23:34:24.011] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id mc_progression_update finished after 5 ms
+[07Mar2024 23:34:24.011] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id mc_progression_update
+[07Mar2024 23:34:24.011] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id mc_progression_update finished after 0 ms
+[07Mar2024 23:34:24.011] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : mc_progression_update
+[07Mar2024 23:34:24.013] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : mc_progression_update finished after 1 ms
+[07Mar2024 23:34:24.013] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[07Mar2024 23:34:24.020] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 6 ms
+[07Mar2024 23:34:24.020] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 237 ms
+[07Mar2024 23:34:24.026] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 158, old count: 158, new count: 159, removed stale: 0, written: 0

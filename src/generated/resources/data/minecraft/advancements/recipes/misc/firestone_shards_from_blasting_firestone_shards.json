@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_firestone_shards": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_progression_update:firestone_shards"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:firestone_shards_from_blasting_firestone_shards"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_firestone_shards"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:firestone_shards_from_blasting_firestone_shards"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,5 @@
+// 1.20.2	2024-03-07T23:28:12.2976093	Registries
+02c7a154e4c74781dbe06624c03519a891bc71fa data/mc_progression_update/forge/biome_modifier/add_nether_firestone_ore.json
+88b1b06e33e2123abb54d2cbe28cbe9c8866ff60 data/mc_progression_update/forge/biome_modifier/turkey_spawn.json
+ec7c15391ae29f8feef57b665f51d271dfce2fce data/mc_progression_update/worldgen/configured_feature/firestone_ore.json
+d2074fe0edc25f625b08e8e3aee346b932831d84 data/mc_progression_update/worldgen/placed_feature/nether_firestone_ore_placed.json

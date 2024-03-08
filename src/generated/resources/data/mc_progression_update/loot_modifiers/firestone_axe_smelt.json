@@ -1,0 +1,13 @@
+{
+  "type": "mc_progression_update:firestone_smelting",
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "items": [
+          "mc_progression_update:firestone_axe"
+        ]
+      }
+    }
+  ]
+}

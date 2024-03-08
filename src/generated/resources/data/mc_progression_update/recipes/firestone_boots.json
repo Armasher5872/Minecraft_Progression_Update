@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "mc_progression_update:firestone_shards"
+    }
+  },
+  "pattern": [
+    "S S",
+    "S S"
+  ],
+  "result": {
+    "item": "mc_progression_update:firestone_boots"
+  },
+  "show_notification": true
+}

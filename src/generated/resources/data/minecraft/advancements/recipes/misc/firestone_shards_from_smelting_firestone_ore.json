@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_firestone_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_progression_update:firestone_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:firestone_shards_from_smelting_firestone_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_firestone_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:firestone_shards_from_smelting_firestone_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

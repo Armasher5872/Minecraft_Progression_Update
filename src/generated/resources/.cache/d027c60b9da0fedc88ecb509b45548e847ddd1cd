@@ -1,0 +1,6 @@
+// 1.20.2	2024-03-07T23:28:12.2946057	Tags for minecraft:block mod id mc_progression_update
+d5aebde1fd1141df86b6ed4ace3f720504b32ab2 data/mc_progression_update/tags/blocks/soulbounded_fire_base_blocks.json
+101f07cf8b218f9ed32f7ac7efbc390e7726bdc2 data/minecraft/tags/blocks/fire.json
+87029a74a90d0bc1d29f75f684faac7a676fcf5a data/minecraft/tags/blocks/mineable/pickaxe.json
+efa4cb0422ccfd402ff474c1a61017465086c7f6 data/minecraft/tags/blocks/needs_stone_tool.json
+46376e4bfd57f3fd36695eb354cfd8bf8e44e208 data/minecraft/tags/blocks/rails.json

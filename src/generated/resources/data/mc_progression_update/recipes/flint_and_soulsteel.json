@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "@": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "S": {
+      "item": "mc_progression_update:magmatic_worm"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "S@S",
+    "SSS"
+  ],
+  "result": {
+    "item": "mc_progression_update:flint_and_soulsteel"
+  },
+  "show_notification": true
+}

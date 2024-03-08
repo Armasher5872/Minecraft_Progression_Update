@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "mc_progression_update:firestone_shards"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "S S"
+  ],
+  "result": {
+    "item": "mc_progression_update:firestone_helmet"
+  },
+  "show_notification": true
+}

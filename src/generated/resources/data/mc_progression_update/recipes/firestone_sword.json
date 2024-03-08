@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "@": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "mc_progression_update:firestone_shards"
+    }
+  },
+  "pattern": [
+    "S",
+    "S",
+    "@"
+  ],
+  "result": {
+    "item": "mc_progression_update:firestone_sword"
+  },
+  "show_notification": true
+}
