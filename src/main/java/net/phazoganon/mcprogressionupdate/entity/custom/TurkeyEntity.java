@@ -19,6 +19,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import net.phazoganon.mcprogressionupdate.entity.ModEntities;
+import net.phazoganon.mcprogressionupdate.sound.ModSounds;
 import org.jetbrains.annotations.Nullable;
 
 public class TurkeyEntity extends Animal {
@@ -113,16 +114,16 @@ public class TurkeyEntity extends Animal {
     @Nullable
     @Override
     protected SoundEvent getAmbientSound() {
-        return SoundEvents.CHICKEN_AMBIENT;
+        return ModSounds.TURKEY_AMBIENT.get();
     }
     @Nullable
     @Override
     protected SoundEvent getHurtSound(DamageSource pDamageSource) {
-        return SoundEvents.CHICKEN_HURT;
+        return ModSounds.TURKEY_HURT.get();
     }
     @Nullable
     @Override
     protected SoundEvent getDeathSound() {
-        return SoundEvents.CHICKEN_DEATH;
+        return ModSounds.TURKEY_DEATH.get();
     }
 }

@@ -86,5 +86,8 @@
   "item.mc_progression_update.firestone_boots": "Smoldering Cleats",
   "item.mc_progression_update.turkey_spawn_egg": "Turkey Spawn Egg",
   "item.mc_progression_update.raw_turkey": "Raw Turkey",
-  "item.mc_progression_update.cooked_turkey": "Cooked Turkey"
+  "item.mc_progression_update.cooked_turkey": "Cooked Turkey",
+  "sounds.mc_progression_update.turkey_ambient": "Turkey gobbles",
+  "sounds.mc_progression_update.turkey_hurt": "Turkey hurt",
+  "sounds.mc_progression_update.turkey_death": "Turkey dies"
 }

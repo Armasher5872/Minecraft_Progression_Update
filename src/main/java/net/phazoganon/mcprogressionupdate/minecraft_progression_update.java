@@ -19,6 +19,7 @@ import net.phazoganon.mcprogressionupdate.entity.client.TurkeyRenderer;
 import net.phazoganon.mcprogressionupdate.food.FoodEffects;
 import net.phazoganon.mcprogressionupdate.item.ModItems;
 import net.phazoganon.mcprogressionupdate.loot.ModLootModifiers;
+import net.phazoganon.mcprogressionupdate.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -32,6 +33,7 @@ public class minecraft_progression_update {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         MinecraftForge.EVENT_BUS.register(new FoodEffects());

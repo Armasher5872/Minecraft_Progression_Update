@@ -1,0 +1,20 @@
+{
+  "turkey_ambient": {
+    "subtitles": "sounds.mc_progression_update.turkey_ambient",
+    "sounds": [
+      "mc_progression_update:turkey_ambient"
+    ]
+  },
+  "turkey_hurt": {
+    "subtitles": "sounds.mc_progression_update.turkey_hurt",
+    "sounds": [
+      "mc_progression_update:turkey_hurt"
+    ]
+  },
+  "turkey_death": {
+    "subtitles": "sounds.mc_progression_update.turkey_death",
+    "sounds": [
+      "mc_progression_update:turkey_death"
+    ]
+  }
+}

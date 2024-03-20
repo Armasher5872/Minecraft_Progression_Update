@@ -20,8 +20,8 @@ public class ModPlacedFeaturesClass {
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
         register(context, NETHER_FIRESTONE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeaturesClass.NETHER_FIRESTONE_ORE_KEY),
-                ModOrePlacementClass.commonOrePlacement(20,
-                        HeightRangePlacement.uniform(VerticalAnchor.absolute(4), VerticalAnchor.absolute(70))));
+                ModOrePlacementClass.commonOrePlacement(15,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(4), VerticalAnchor.absolute(117))));
     }
     private static ResourceKey<PlacedFeature> registerKey(String name) {
         return ResourceKey.create(Registries.PLACED_FEATURE, new ResourceLocation(minecraft_progression_update.MOD_ID, name));

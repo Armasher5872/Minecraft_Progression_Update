@@ -16,11 +16,28 @@ public class FoodEffects {
     @SubscribeEvent
     public void onLivingEntityUseItemStart(LivingEntityUseItemEvent.Start event) {
         ItemStack stack = event.getItem();
-        if (stack.getItem() == Items.COOKIE
+        if (
+                stack.getItem() == Items.HONEY_BOTTLE
                 || stack.getItem() == Items.GLOW_BERRIES
                 || stack.getItem() == Items.SWEET_BERRIES
-            ) {
-            event.setDuration(16);
+                || stack.getItem() == Items.SPIDER_EYE
+        ) {
+            event.setDuration(4);
+        }
+        if (
+                stack.getItem() == Items.APPLE
+                || stack.getItem() == Items.BEETROOT
+                || stack.getItem() == Items.CARROT
+                || stack.getItem() == Items.CHORUS_FRUIT
+                || stack.getItem() == Items.COOKIE
+                || stack.getItem() == Items.DRIED_KELP
+                || stack.getItem() == Items.MELON_SLICE
+                || stack.getItem() == Items.ROTTEN_FLESH
+        ) {
+            event.setDuration(8);
+        }
+        if (stack.getItem() == Items.ENCHANTED_GOLDEN_APPLE || stack.getItem() == Items.RABBIT_STEW) {
+            event.setDuration(32);
         }
     }
     @SubscribeEvent
