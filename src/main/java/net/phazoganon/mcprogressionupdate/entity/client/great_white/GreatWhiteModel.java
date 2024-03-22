@@ -75,6 +75,7 @@ public class GreatWhiteModel<T extends Entity> extends HierarchicalModel<T> {
 		this.root().getAllParts().forEach(ModelPart::resetPose);
 		this.applyHeadRotation(netHeadYaw, headPitch, ageInTicks);
 		this.animate(((GreatWhiteEntity) entity).idleAnimationState, GreatWhiteAnimationDefinitions.IDLE, ageInTicks, 1f);
+		this.animate(((GreatWhiteEntity) entity).attackAnimationState, GreatWhiteAnimationDefinitions.ATTACK, ageInTicks, 1f);
 	}
 	private void applyHeadRotation(float pNetHeadYaw, float pNetHeadPitch, float pAgeInTicks) {
 		pNetHeadYaw = Mth.clamp(pNetHeadYaw, -20.0f, 20.0f);

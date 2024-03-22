@@ -90,5 +90,6 @@
   "sounds.mc_progression_update.turkey_ambient": "Turkey gobbles",
   "sounds.mc_progression_update.turkey_hurt": "Turkey hurt",
   "sounds.mc_progression_update.turkey_death": "Turkey dies",
-  "item.mc_progression_update.great_white_spawn_egg": "Great White Spawn Egg"
+  "item.mc_progression_update.great_white_spawn_egg": "Great White Spawn Egg",
+  "entity.mc_progression_update.great_white": "Great White Shark"
 }
