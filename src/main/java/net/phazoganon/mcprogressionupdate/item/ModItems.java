@@ -336,6 +336,10 @@ public class ModItems {
             "cooked_turkey",
             () -> new Item(new Item.Properties().food(ModFoods.COOKED_TURKEY))
     );
+    public static final RegistryObject<Item> GREAT_WHITE_SPAWN_EGG = ITEMS.register(
+            "great_white_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.GREAT_WHITE, 0xA9A9A9, 0x7EBFEA, new Item.Properties())
+    );
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

@@ -11,6 +11,8 @@ import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.Entity;
+import net.phazoganon.mcprogressionupdate.entity.animations.GreatWhiteAnimationDefinitions;
+import net.phazoganon.mcprogressionupdate.entity.custom.GreatWhiteEntity;
 
 public class GreatWhiteModel<T extends Entity> extends HierarchicalModel<T> {
 	private final ModelPart GreatWhiteModel;
@@ -72,6 +74,7 @@ public class GreatWhiteModel<T extends Entity> extends HierarchicalModel<T> {
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 		this.root().getAllParts().forEach(ModelPart::resetPose);
 		this.applyHeadRotation(netHeadYaw, headPitch, ageInTicks);
+		this.animate(((GreatWhiteEntity) entity).idleAnimationState, GreatWhiteAnimationDefinitions.IDLE, ageInTicks, 1f);
 	}
 	private void applyHeadRotation(float pNetHeadYaw, float pNetHeadPitch, float pAgeInTicks) {
 		pNetHeadYaw = Mth.clamp(pNetHeadYaw, -20.0f, 20.0f);

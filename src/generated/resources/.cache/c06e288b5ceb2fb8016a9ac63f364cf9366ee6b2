@@ -1,4 +1,4 @@
-// 1.20.2	2024-03-07T23:28:12.296608	Item Models: mc_progression_update
+// 1.20.2	2024-03-22T01:11:18.885631	Item Models: mc_progression_update
 14d4d51c9e5722c37e20c7d0f77c2f95b301601b assets/mc_progression_update/models/item/cooked_turkey.json
 13ca8f1deba3c9deeae90716d0a0352615730e5a assets/mc_progression_update/models/item/firestone_axe.json
 2fb298cdf617a105e5324dc569fb75af28113fb0 assets/mc_progression_update/models/item/firestone_boots.json
@@ -13,6 +13,7 @@ da8d4d33fb42334a143dcce6672433aaf7198602 assets/mc_progression_update/models/ite
 c4d60158b53dd20a9029c707fdc681f0f597c800 assets/mc_progression_update/models/item/flint_and_soulsteel.json
 2cba735091bdc681d9566156e6e594b493545384 assets/mc_progression_update/models/item/frostbitten_brick_slab.json
 4e30f17b9e608f16041cd1d7606d40cab6420b68 assets/mc_progression_update/models/item/frostbitten_brick_stairs.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/mc_progression_update/models/item/great_white_spawn_egg.json
 d5e39ffa1d844b96a5477ccd726925de3c28de8b assets/mc_progression_update/models/item/lightning_rail.json
 6d12f7eacd8ca1977e47e1cd3d70d8d10086f4c0 assets/mc_progression_update/models/item/magmatic_worm.json
 8ea3abd36f7507e0cfd4a7f748aea90b1ff62909 assets/mc_progression_update/models/item/multibow.json

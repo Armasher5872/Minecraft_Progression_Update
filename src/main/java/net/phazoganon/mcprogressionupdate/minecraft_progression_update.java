@@ -117,6 +117,7 @@ public class minecraft_progression_update {
         }
         if (event.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
             event.accept(ModItems.TURKEY_SPAWN_EGG);
+            event.accept(ModItems.GREAT_WHITE_SPAWN_EGG);
         }
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModBlocks.LIGHTNING_RAIL);
