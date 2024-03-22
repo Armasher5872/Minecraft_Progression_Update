@@ -36,6 +36,10 @@ public class ModEntityLootTables extends EntityLootSubProvider {
                                 .apply(LootingEnchantFunction.lootingMultiplier(UniformGenerator.between(0.0f, 1.0f))))
                         )
         );
+        add(ModEntities.GREAT_WHITE.get(), emptyLootTable());
+    }
+    public LootTable.Builder emptyLootTable() {
+        return LootTable.lootTable();
     }
     @Override
     protected java.util.stream.Stream<EntityType<?>> getKnownEntityTypes() {

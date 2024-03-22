@@ -1,4 +1,4 @@
-package net.phazoganon.mcprogressionupdate.entity.client;
+package net.phazoganon.mcprogressionupdate.entity.client.turkey;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -10,11 +10,10 @@ import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.Entity;
-import net.phazoganon.mcprogressionupdate.entity.animations.ModAnimationDefinitions;
+import net.phazoganon.mcprogressionupdate.entity.animations.TurkeyAnimationDefinitions;
 import net.phazoganon.mcprogressionupdate.entity.custom.TurkeyEntity;
 
 public class TurkeyModel<T extends Entity> extends HierarchicalModel<T> {
-	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("modid", "turkey"), "main");
 	private final ModelPart turkeymodel;
 	private final ModelPart head;
 	public TurkeyModel(ModelPart root) {
@@ -56,8 +55,8 @@ public class TurkeyModel<T extends Entity> extends HierarchicalModel<T> {
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 		this.root().getAllParts().forEach(ModelPart::resetPose);
 		this.applyHeadRotation(netHeadYaw, headPitch, ageInTicks);
-		this.animateWalk(ModAnimationDefinitions.WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
-		this.animate(((TurkeyEntity) entity).fallAnimationState, ModAnimationDefinitions.FALL, ageInTicks, 1f);
+		this.animateWalk(TurkeyAnimationDefinitions.WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
+		this.animate(((TurkeyEntity) entity).fallAnimationState, TurkeyAnimationDefinitions.FALL, ageInTicks, 1f);
 	}
 	private void applyHeadRotation(float pNetHeadYaw, float pNetHeadPitch, float pAgeInTicks) {
 		pNetHeadYaw = Mth.clamp(pNetHeadYaw, -50.0f, 50.0f);

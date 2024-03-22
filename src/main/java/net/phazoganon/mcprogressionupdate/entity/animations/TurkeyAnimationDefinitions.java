@@ -5,7 +5,7 @@ import net.minecraft.client.animation.AnimationDefinition;
 import net.minecraft.client.animation.Keyframe;
 import net.minecraft.client.animation.KeyframeAnimations;
 
-public class ModAnimationDefinitions {
+public class TurkeyAnimationDefinitions {
     public static final AnimationDefinition FALL = AnimationDefinition.Builder.withLength(0.5416766f).looping()
             .addAnimation("tail",
                     new AnimationChannel(AnimationChannel.Targets.ROTATION,

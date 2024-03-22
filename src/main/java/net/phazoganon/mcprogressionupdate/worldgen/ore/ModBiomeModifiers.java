@@ -17,6 +17,7 @@ import net.phazoganon.mcprogressionupdate.minecraft_progression_update;
 public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_NETHER_FIRESTONE_ORE = registerKey("add_nether_firestone_ore");
     public static final ResourceKey<BiomeModifier> TURKEY_SPAWN = registerKey("turkey_spawn");
+    public static final ResourceKey<BiomeModifier> GREAT_WHITE_SPAWN = registerKey("great_white_spawn");
     public static void bootstrap(BootstapContext<BiomeModifier> context) {
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
         var biomes = context.lookup(Registries.BIOME);
@@ -27,6 +28,10 @@ public class ModBiomeModifiers {
         context.register(TURKEY_SPAWN, ForgeBiomeModifiers.AddSpawnsBiomeModifier.singleSpawn(
                 biomes.getOrThrow(BiomeTags.IS_TAIGA),
                 new MobSpawnSettings.SpawnerData(ModEntities.TURKEY.get(), 5, 1, 4)
+        ));
+        context.register(GREAT_WHITE_SPAWN, ForgeBiomeModifiers.AddSpawnsBiomeModifier.singleSpawn(
+                biomes.getOrThrow(BiomeTags.IS_DEEP_OCEAN),
+                new MobSpawnSettings.SpawnerData(ModEntities.GREAT_WHITE.get(), 7, 1, 3)
         ));
     }
     private static ResourceKey<BiomeModifier> registerKey(String name) {

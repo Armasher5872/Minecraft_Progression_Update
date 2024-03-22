@@ -15,7 +15,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.phazoganon.mcprogressionupdate.block.ModBlocks;
 import net.phazoganon.mcprogressionupdate.entity.ModEntities;
-import net.phazoganon.mcprogressionupdate.entity.client.TurkeyRenderer;
+import net.phazoganon.mcprogressionupdate.entity.client.great_white.GreatWhiteRenderer;
+import net.phazoganon.mcprogressionupdate.entity.client.turkey.TurkeyRenderer;
 import net.phazoganon.mcprogressionupdate.food.FoodEffects;
 import net.phazoganon.mcprogressionupdate.item.ModItems;
 import net.phazoganon.mcprogressionupdate.loot.ModLootModifiers;
@@ -164,6 +165,7 @@ public class minecraft_progression_update {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntities.TURKEY.get(), TurkeyRenderer::new);
+            EntityRenderers.register(ModEntities.GREAT_WHITE.get(), GreatWhiteRenderer::new);
         }
     }
 }

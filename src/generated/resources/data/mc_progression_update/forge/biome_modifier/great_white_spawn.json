@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#minecraft:is_deep_ocean",
+  "spawners": {
+    "type": "mc_progression_update:great_white",
+    "maxCount": 3,
+    "minCount": 1,
+    "weight": 7
+  }
+}
